@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IndoKDV</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" href="images/logo.png" />
+		<style type="text/css">
+			body{
+				background-image: url('images/background.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.font-white{
+				color: white;
+				font-family: sans-serif;
+				margin: 0;
+			}
+
+			.font-black{
+				color: black;
+				font-family: sans-serif;
+				margin: 0;
+			}
+
+			.grayscale{
+				background-color: rgba(200,200,200,.6);
+				background-image: radial-gradient(rgba(255,255,255,0),rgb(130,130,130) 95%);
+			}
+			.margin-top{
+				
+				margin-top: 50px;
+			}
+			@keyframes gerak{
+				0%{transform: rotate(0deg);}
+				25%{transform: rotate(15deg);}
+				50%{transform: rotate(0deg);}
+				75%{transform: rotate(-15deg);}
+				100%{transform: rotate(0deg);}
+			}
+			div>img{
+				  animation-name: gerak;
+				  animation-duration: 4s;
+				  animation-iteration-count: 999;
+			}
+		</style>
+</head>
+<body style="padding: 0;margin: 0">
+<content >
+	<div >
+		<center class="grayscale" style="height: 100vh">
+			<div style="display: flex;flex-direction: column;position: relative;">
+				<div><img src="images/IndoKDV.png" width="15%"></div>
+				<p class="font-black" style="font-size: 100px;margin-top: 0">See what next.</p>
+				<div class="margin-top">
+					<p class="font-black" style="font-size: 30px;">WATCH ANYWHERE. CANCEL ANYTIME.</p>
+				</div>
+				<div class="margin-top" style="background-color: none;">
+					<p class="font-white" style="background-color: red; font-size: 30px;margin: 20px;margin-left: 410px;margin-right: 410px;padding: 25px;border-radius: 5%">JOIN FREE FOR A MONTH 	<I style="margin-left: 20px;" class="fa fa-angle-right "></I></p>
+
+				</div>
+				
+			</div>
+			<a href="login.html">
+				
+				<div style="position: absolute;top:20px;right: 40px;padding: 10px 20px 10px 20px;border-radius: 5% ;background-color: red;">
+					<p class="font-white">
+						Sign in
+					</p>
+				</div>
+			</a>
+		</center>
+	</div>
+</content>
+</body>
+</html>

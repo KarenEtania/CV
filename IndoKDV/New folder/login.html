@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IndoKDV</title>
+		<link rel="shortcut icon" href="images/logo.png" />
+		<style type="text/css">
+			body{
+				background-image: url('images/background.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				font-family: sans-serif;
+			}
+			.font-white{
+				color: white;
+				margin: 0;
+				font-family: sans-serif;
+			}
+
+			.grayscale{
+				background-color: rgba(200,200,200,.6);
+				background-image: radial-gradient(rgba(255,255,255,0),rgb(130,130,130) 95%);
+			}
+			.margin-top{	
+				margin-top: 50px;
+			}
+			input{
+				background-color: #333;
+				border: none;
+				padding: 15px;
+				border-radius: 5%;
+				margin-bottom: 20px;
+				color: grey;
+				font-family: sans-serif;
+			}
+		</style>
+</head>
+<body style="padding: 0;margin: 0">
+<content  >
+	<div style="position: relative;">
+		<center class="grayscale" style="height:100vh;position: absolute;top: 0;left: 0;right: 0;bottom: 0;overflow: hidden;">
+			<div style="display: flex;flex-direction: column;background-color: rgba(70,70,70,.75);padding: 40px; width: 20%;justify-content: center;margin-top: 30vh">
+				<div style="display: flex;margin-bottom: 20px;font-size: 30px;">
+					<p class="font-white">Sign In</p>
+				</div>
+				<input type="text" name="" placeholder="Email or Phone Number">
+				<input type="password" name="password" placeholder="password" >
+				<a href="home.html">
+					<div class="font-white"><p style="background-color: red;padding: 10px 20px 10px 20px"><b>Sign In</b></p></div>
+				</a>
+				<div style="display: flex;justify-content: space-between;">
+					<label style="color: #b3b3b3;font-size: 15px;"><input type="checkbox" name="">Remember Me</label>
+					<p style="color: #b3b3b3;font-size: 13px;margin: 0">Need help?</p>
+				</div>
+			</div>
+		</center>
+			<div style="position: absolute;top: 0; left: 3vw">
+				<a href="index.html">					
+					<img src="images/IndoKDV.png" width="30%">
+				</a>
+			</div>
+	</div>
+</content>
+</body>
+</html>
